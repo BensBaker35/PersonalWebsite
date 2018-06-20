@@ -1,9 +1,9 @@
 .test2{
     Color: #ff5722;/*Save this Cool Color, For Name Text*/
-    
-    text-align: left;
-    font-family: Tahoma;
-    font-size: 75pt;
+    box-shadow: 1000px;
+    text-align: center ;
+    /*font-family: Tahoma;*/
+    font-size: 150pt;
     /*background-color: lawngreen;*/
 
 }

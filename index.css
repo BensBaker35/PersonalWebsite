@@ -58,3 +58,12 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.header{
+    background-position: center;
+    background-image: url("LogoTest.png");
+    background-repeat: no-repeat;
+    background-color: #F1F1f1;
+    text-align: center;
+    padding: 90px;
+}

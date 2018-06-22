@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact & Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="bg">
+        <!--<img src ="North-Edit2.png" class = "bg">-->
+        <div>
+            <!--Navigation Bar-->
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="BrookdaleGameStudios.html">Brookdale Game Studios</a>
+                </li>
+                <li>
+                    <a class="active" href="contact.html">Contact/Feedback</a>
+                </li>
+                <!--Make an HTML Form instead-->
+                <li>
+                    <a href="aboutme.html">About Me</a>
+                </li>
+                <li class="dropdown">
+                    <a href="games.html" class="dropmenu">Other Projects</a>
+                    <div class="dropdown-content">
+                        <a target=_ blank href="https://github.com/BensBaker35/WhatThePuckGame">What The Puck</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    <div>
+        <!--Needs Work, Wait Till Sever is running to be able to collect the data-->
+        <form>
+            Name:<br>
+            <input type="text" name="Name" class = "name">
+            <h3>Type</h3>
+            <h5>Contact Type</h5>
+            Contact<br>
+            <input type = "radio" name = "Contact">
+            <br>
+            Feedback<br>
+            <input type = "radio" name = "Feedback">
+            <br>
+            <h5>Response</h5>
+            <input type = "text" name = "Response" class = "response">
+            <br>
+            <br>
+            <input type = "submit" name = "Send">
+        </form>
+    </div>
+
+</body>
+
+</html>

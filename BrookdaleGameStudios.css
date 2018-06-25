@@ -6,7 +6,7 @@ body, html{
 }
 .container {
     float: left;
-    padding: 0;
+    padding: 10px;
     position: relative;
     width: 50%;
 }
@@ -32,6 +32,7 @@ body, html{
 
 .container:hover .image {
   opacity: 0.3;
+  transform: scale(1.05);
 }
 
 .container:hover .overlay {

@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.histList ul{
+    display: block;
+    position: absolute;
+}
+.p{
+    background-color: white;
+}

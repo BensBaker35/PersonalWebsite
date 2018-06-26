@@ -1,10 +1,10 @@
 body{
     text-align: center;
 }
-.histList ul{
-    display: block;
-    position: absolute;
+.histTitle{
+    size: 72pt;
+    color: #ff5722;
 }
-.p{
-    background-color: white;
+.histInfo{
+    color: #f1f1f1; 
 }
